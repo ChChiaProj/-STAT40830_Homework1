@@ -11,7 +11,7 @@ execute:
 
 ## 1. Description of dataset
 
-The dataset used in this analysis is **gapminder** which contains data on GDP per capita, population and life expectancy for several countries over many decades.
+The dataset used in this analysis is **gapminder** which contains data on GDP per capita, population and life expectancies for several countries over many decades.
 
 ## 2. Preview of dataset
 
@@ -34,7 +34,7 @@ The data covers countries across the different continents: Africa, Americas, Asi
 
 ## 4. Plot: Comparing life expectancies of selected countries
 
-*The 5 countries selected were the top 5 most populated countries in 2023.*
+*The 5 countries (*India, United States, China, Indonesia, Pakistan) *selected for this plot were the top 5 most populated countries in 2023.*
 
 ```{r}
 suppressWarnings(library(ggplot2))
