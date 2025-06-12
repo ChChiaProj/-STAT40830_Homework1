@@ -9,11 +9,11 @@ execute:
 
 # Gapminder Dataset - Descriptive Statistics and Plot
 
-## Description of dataset
+## 1. Description of dataset
 
 The dataset used in this analysis is **gapminder** which contains data on GDP per capita, population and life expectancy for several countries over many decades.
 
-## Preview of dataset
+## 2. Preview of dataset
 
 ```{r}
 suppressWarnings(library(gapminder))
@@ -22,7 +22,7 @@ library(knitr)
 kable(head(gapminder), format = "html", caption = "<strong><span style='color:blue'>Preview of Gapminder Dataset</span></strong>")
 ```
 
-## Descriptive statistics
+## 3. Descriptive statistics
 
 ```{r}
 kable(summary(gapminder), format = "html", caption = "<strong><span style='color:blue'>Descriptive Statistics of Gapminder</span></strong>")
@@ -32,7 +32,7 @@ kable(summary(gapminder), format = "html", caption = "<strong><span style='color
 **Comments**\
 The data covers countries across the different continents: Africa, Americas, Asia, Europe and Oceania from 1952 to 2007. For **Life Expectancy**, the median is 60.71 years and the mean is slightly lower at 59.47 years. The maximum is 82.6 years and the minimum is very low at 23.6 years. For **Population**, the median is 7 million people, the mean about 30 million people, the maximum is 1.3 billion people and the minimum is about 60,000 people. For **GDP per capita**, the median is \$3532, the mean, \$7215, the maximum is about \$114,000 and the minimum is \$241. Both **Population** and **GDP per capita** are significantly positively skewed.
 
-## Plot: Comparing life expectancies of selected countries
+## 4. Plot: Comparing life expectancies of selected countries
 
 *The 5 countries selected were the top 5 most populated countries in 2023.*
 
